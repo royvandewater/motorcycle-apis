@@ -34,4 +34,5 @@ group :development, :test, :guard do
   gem 'unicorn'
   gem 'poltergeist'
   gem 'database_cleaner', :git => 'https://github.com/bmabey/database_cleaner.git', :require => false
+  gem 'growl'
 end

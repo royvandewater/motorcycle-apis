@@ -1,7 +1,8 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-notification :file, :path => '.guard_result'
+# notification :file, :path => '.guard_result'
+# notification :growl
 
 ignore! /tmp/, /public/
 

@@ -56,9 +56,9 @@ Spork.prefork do
       DatabaseCleaner.clean
       DatabaseCleaner.strategy = :truncation, {:pre_count => true, :reset_ids => false}
 
-      if example.exception.present?
-        take_screenshot :prefix => example.description
-      end
+      # if example.exception.present?
+      #   take_screenshot :prefix => example.description
+      # end
     end
   end
 
