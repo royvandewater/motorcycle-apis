@@ -20,6 +20,13 @@ test:
   username: root
   password:
 
+guard:
+  adapter: mysql2
+  database: motorcycle_apis_guard
+  encoding: utf8
+  username: root
+  password:
+
 # production:
 #   adapter: mysql2
 #   database: motorcycle_apis_production
